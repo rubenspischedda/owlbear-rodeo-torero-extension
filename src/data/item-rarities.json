@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "code": "NONE",
+            "name": "None",
+            "value": 0
+        },
+        {
+            "code": "COMMON",
+            "name": "Common",
+            "value": 1
+        },
+        {
+            "code": "UNCOMMON",
+            "name": "Uncommon",
+            "value": 2
+        },
+        {
+            "code": "RARE",
+            "name": "Rare",
+            "value": 3
+        },
+        {
+            "code": "VERY_RARE",
+            "name": "Very rare",
+            "value": 4
+        },
+        {
+            "code": "LEGENDARY",
+            "name": "Legendary",
+            "value": 5
+        },
+        {
+            "code": "ARTIFACT",
+            "name": "Artifact",
+            "value": 6
+        },
+        {
+            "code": "UNKNOWN",
+            "name": "Unknown",
+            "value": null
+        },
+        {
+            "code": "UNKNOWN_MAGIC",
+            "name": "Unknown (Magic)",
+            "value": null
+        },
+        {
+            "code": "VARIES",
+            "name": "Varies",
+            "value": null
+        }
+    ]
+}

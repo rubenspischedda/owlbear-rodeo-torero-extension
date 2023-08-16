@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "code": "CG",
+            "name": "Chaotic Good"
+        },
+        {
+            "code": "CN",
+            "name": "Chaotic Neutral"
+        },
+        {
+            "code": "CE",
+            "name": "Chaotic Evil"
+        },
+        {
+            "code": "NG",
+            "name": "Neutral Good"
+        },
+        {
+            "code": "N",
+            "name": "True Neutral"
+        },
+        {
+            "code": "NE",
+            "name": "Neutral Evil"
+        },
+        {
+            "code": "LG",
+            "name": "Lawful Good"
+        },
+        {
+            "code": "LN",
+            "name": "Lawful Neutral"
+        },
+        {
+            "code": "LE",
+            "name": "Lawful Evil"
+        }
+    ]
+}

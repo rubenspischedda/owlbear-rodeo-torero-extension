@@ -1,0 +1,1849 @@
+{
+	"data": [
+		{
+			"code": "ANTIMATTER_RIFLE",
+			"name": "Antimatter Rifle",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 10,
+			"weaponCategory": "martial",
+			"age": "futuristic",
+			"property": [
+				"AF",
+				"RLD",
+				"2H"
+			],
+			"range": "120/360",
+			"reload": 2,
+			"dmg1": "6d8",
+			"dmgType": "N",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "energy cell"
+		},
+		{
+			"code": "ARROW",
+			"name": "Arrow",
+			"source": "PHB",
+			"page": 150,
+			"srd": true,
+			"basicRules": true,
+			"type": "A",
+			"rarity": "NONE",
+			"weight": 0.05,
+			"value": 5
+		},
+		{
+			"code": "ARROWS(20)",
+			"name": "Arrows (20)",
+			"source": "PHB",
+			"page": 150,
+			"srd": true,
+			"basicRules": true,
+			"type": "A",
+			"rarity": "NONE",
+			"weight": 1,
+			"value": 100,
+			"packContents": [
+				{
+					"item": "arrow|phb",
+					"quantity": 20
+				}
+			]
+		},
+		{
+			"code": "AUTOMATIC_PISTOL",
+			"name": "Automatic Pistol",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"age": "modern",
+			"property": [
+				"AF",
+				"RLD"
+			],
+			"range": "50/150",
+			"reload": 15,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "modern bullet"
+		},
+		{
+			"code": "AUTOMATIC_RIFLE",
+			"name": "Automatic Rifle",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 8,
+			"weaponCategory": "martial",
+			"age": "modern",
+			"property": [
+				"AF",
+				"BF",
+				"RLD",
+				"2H"
+			],
+			"range": "80/240",
+			"reload": 30,
+			"dmg1": "2d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "modern bullet"
+		},
+		{
+			"code": "BATTLEAXE",
+			"name": "Battleaxe",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 4,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"code": "BLOWGUN",
+			"name": "Blowgun",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 1,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"LD"
+			],
+			"range": "25/100",
+			"dmg1": "1",
+			"dmgType": "P",
+			"weapon": true,
+			"ammoType": "blowgun needle|phb"
+		},
+		{
+			"code": "BLOWGUN_NEEDLE",
+			"name": "Blowgun Needle",
+			"source": "PHB",
+			"page": 150,
+			"srd": true,
+			"basicRules": true,
+			"type": "A",
+			"rarity": "NONE",
+			"weight": 0.02,
+			"value": 2
+		},
+		{
+			"code": "BLOWGUN_NEEDLES(50)",
+			"name": "Blowgun Needles (50)",
+			"source": "PHB",
+			"page": 150,
+			"srd": true,
+			"basicRules": true,
+			"type": "A",
+			"rarity": "NONE",
+			"weight": 1,
+			"value": 100,
+			"packContents": [
+				{
+					"item": "blowgun needle|phb",
+					"quantity": 50
+				}
+			]
+		},
+		{
+			"code": "BREASTPLATE",
+			"name": "Breastplate",
+			"source": "PHB",
+			"page": 145,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "NONE",
+			"weight": 20,
+			"value": 40000,
+			"ac": 14,
+			"armor": true,
+			"entries": [
+				"This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
+			]
+		},
+		{
+			"code": "CHAIN_MAIL",
+			"name": "Chain Mail",
+			"source": "PHB",
+			"page": 145,
+			"srd": true,
+			"basicRules": true,
+			"type": "HA",
+			"rarity": "NONE",
+			"weight": 55,
+			"value": 7500,
+			"ac": 16,
+			"strength": "13",
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
+			]
+		},
+		{
+			"code": "CHAIN_SHIRT",
+			"name": "Chain Shirt",
+			"source": "PHB",
+			"page": 144,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "NONE",
+			"weight": 20,
+			"value": 5000,
+			"ac": 13,
+			"armor": true,
+			"entries": [
+				"Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
+			]
+		},
+		{
+			"code": "CLUB",
+			"name": "Club",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"code": "CROSSBOW_BOLT",
+			"name": "Crossbow Bolt",
+			"source": "PHB",
+			"page": 150,
+			"srd": true,
+			"basicRules": true,
+			"type": "A",
+			"rarity": "NONE",
+			"weight": 0.075,
+			"value": 5
+		},
+		{
+			"code": "CROSSBOW_BOLTS(20)",
+			"name": "Crossbow Bolts (20)",
+			"source": "PHB",
+			"page": 150,
+			"srd": true,
+			"basicRules": true,
+			"type": "A",
+			"rarity": "NONE",
+			"weight": 1.5,
+			"value": 100,
+			"packContents": [
+				{
+					"item": "crossbow bolt|phb",
+					"quantity": 20
+				}
+			]
+		},
+		{
+			"code": "CRYSTAL",
+			"name": "Crystal",
+			"source": "PHB",
+			"page": 151,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "NONE",
+			"weight": 1,
+			"value": 1000
+		},
+		{
+			"code": "DAGGER",
+			"name": "Dagger",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true
+		},
+		{
+			"code": "DART",
+			"name": "Dart",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 0.25,
+			"value": 5,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"code": "DOUBLE_BLADED_SCIMITAR",
+			"name": "Double-Bladed Scimitar",
+			"source": "ERLW",
+			"page": 21,
+			"otherSources": [
+				{
+					"source": "UAWGE",
+					"page": 74
+				}
+			],
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 6,
+			"value": 10000,
+			"weaponCategory": "martial",
+			"property": [
+				"S",
+				"2H"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@dice 1d4} slashing damage on a hit, instead of {@dice 2d4}."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"code": "ENERGY_CELL",
+			"name": "Energy Cell",
+			"source": "DMG",
+			"page": 268,
+			"type": "AF",
+			"rarity": "NONE",
+			"weight": 0.3125,
+			"age": "futuristic"
+		},
+		{
+			"code": "FLAIL",
+			"name": "Flail",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"weapon": true
+		},
+		{
+			"code": "GLAIVE",
+			"name": "Glaive",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"code": "GREATAXE",
+			"name": "Greataxe",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 7,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"code": "GREATCLUB",
+			"name": "Greatclub",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 10,
+			"value": 20,
+			"weaponCategory": "simple",
+			"property": [
+				"2H"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"code": "GREATSWORD",
+			"name": "Greatsword",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 6,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"code": "HALBERD",
+			"name": "Halberd",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"code": "HALF_PLATE_ARMOR",
+			"name": "Half Plate Armor",
+			"source": "PHB",
+			"page": 145,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "NONE",
+			"weight": 40,
+			"value": 75000,
+			"ac": 15,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."
+			]
+		},
+		{
+			"code": "HAND_CROSSBOW",
+			"name": "Hand Crossbow",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 3,
+			"value": 7500,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"L",
+				"LD"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"code": "HANDAXE",
+			"name": "Handaxe",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"code": "HEAVY_CROSSBOW",
+			"name": "Heavy Crossbow",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 18,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"LD",
+				"2H"
+			],
+			"range": "100/400",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"code": "HIDE_ARMOR",
+			"name": "Hide Armor",
+			"source": "PHB",
+			"page": 144,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "NONE",
+			"weight": 12,
+			"value": 1000,
+			"ac": 12,
+			"armor": true,
+			"entries": [
+				"This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor."
+			]
+		},
+		{
+			"code": "HOOKED_SHORTSPEAR",
+			"name": "Hooked Shortspear",
+			"source": "OotA",
+			"page": 224,
+			"type": "M",
+			"rarity": "UNKNOWN",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+			]
+		},
+		{
+			"code": "HOOPAK",
+			"name": "Hoopak",
+			"source": "DSotDQ",
+			"page": 188,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"F",
+				"S",
+				"2H"
+			],
+			"range": "40/160",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.",
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals {@damage 1d4} bludgeoning damage on a hit."
+					]
+				}
+			],
+			"ammoType": "sling bullet|phb"
+		},
+		{
+			"code": "HUNTING_RIFLE",
+			"name": "Hunting Rifle",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 8,
+			"weaponCategory": "martial",
+			"age": "modern",
+			"property": [
+				"AF",
+				"RLD",
+				"2H"
+			],
+			"range": "80/240",
+			"reload": 5,
+			"dmg1": "2d10",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "modern bullet"
+		},
+		{
+			"code": "JAVELIN",
+			"name": "Javelin",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 50,
+			"weaponCategory": "simple",
+			"property": [
+				"T"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"code": "LANCE",
+			"name": "Lance",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 6,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"R",
+				"S"
+			],
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+					]
+				}
+			]
+		},
+		{
+			"code": "LASER_PISTOL",
+			"name": "Laser Pistol",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"age": "futuristic",
+			"property": [
+				"AF",
+				"RLD"
+			],
+			"range": "30/120",
+			"reload": 50,
+			"dmg1": "3d6",
+			"dmgType": "R",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "energy cell"
+		},
+		{
+			"code": "LASER_RIFLE",
+			"name": "Laser Rifle",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 7,
+			"weaponCategory": "martial",
+			"age": "futuristic",
+			"property": [
+				"AF",
+				"RLD",
+				"2H"
+			],
+			"range": "100/300",
+			"reload": 30,
+			"dmg1": "3d8",
+			"dmgType": "R",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "energy cell"
+		},
+		{
+			"code": "LEATHER_ARMOR",
+			"name": "Leather Armor",
+			"source": "PHB",
+			"page": 144,
+			"srd": true,
+			"basicRules": true,
+			"type": "LA",
+			"rarity": "NONE",
+			"weight": 10,
+			"value": 1000,
+			"ac": 11,
+			"armor": true,
+			"entries": [
+				"The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
+			]
+		},
+		{
+			"code": "LIGHT_CROSSBOW",
+			"name": "Light Crossbow",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 5,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"LD",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"code": "LIGHT_HAMMER",
+			"name": "Light Hammer",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"code": "LIGHT_REPEATING_CROSSBOW",
+			"name": "Light Repeating Crossbow",
+			"source": "OotA",
+			"page": 224,
+			"type": "R",
+			"rarity": "UNKNOWN",
+			"weight": 5,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "40/160",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"entries": [
+				"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
+			],
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"code": "LONGBOW",
+			"name": "Longbow",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
+			"code": "LONGSWORD",
+			"name": "Longsword",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"code": "MACE",
+			"name": "Mace",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"code": "MAUL",
+			"name": "Maul",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 10,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"code": "MODERN_BULLET",
+			"name": "Modern Bullet",
+			"source": "DMG",
+			"page": 268,
+			"type": "AF",
+			"rarity": "NONE",
+			"weight": 0.1,
+			"age": "modern"
+		},
+		{
+			"code": "MODERN_BULLETS(10)",
+			"name": "Modern Bullets (10)",
+			"source": "DMG",
+			"page": 268,
+			"type": "AF",
+			"rarity": "NONE",
+			"weight": 1,
+			"age": "modern",
+			"packContents": [
+				{
+					"item": "modern bullet",
+					"quantity": 10
+				}
+			]
+		},
+		{
+			"code": "MORNINGSTAR",
+			"name": "Morningstar",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 4,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"code": "MUSKET",
+			"name": "Musket",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 10,
+			"value": 50000,
+			"weaponCategory": "martial",
+			"age": "renaissance",
+			"property": [
+				"AF",
+				"LD",
+				"2H"
+			],
+			"range": "40/120",
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
+			"code": "NET",
+			"name": "Net",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "martial",
+			"property": [
+				"S",
+				"T"
+			],
+			"range": "5/15",
+			"net": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+					]
+				}
+			]
+		},
+		{
+			"code": "ORB",
+			"name": "Orb",
+			"source": "PHB",
+			"page": 151,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "NONE",
+			"weight": 3,
+			"value": 2000
+		},
+		{
+			"code": "PADDED_ARMOR",
+			"name": "Padded Armor",
+			"source": "PHB",
+			"page": 144,
+			"srd": true,
+			"basicRules": true,
+			"type": "LA",
+			"rarity": "NONE",
+			"weight": 8,
+			"value": 500,
+			"ac": 11,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Padded armor consists of quilted layers of cloth and batting."
+			]
+		},
+		{
+			"code": "PIKE",
+			"name": "Pike",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 18,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"code": "PISTOL",
+			"name": "Pistol",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 3,
+			"value": 25000,
+			"weaponCategory": "martial",
+			"age": "renaissance",
+			"property": [
+				"AF",
+				"LD"
+			],
+			"range": "30/90",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
+			"code": "PLATE_ARMOR",
+			"name": "Plate Armor",
+			"source": "PHB",
+			"page": 145,
+			"srd": true,
+			"basicRules": true,
+			"type": "HA",
+			"rarity": "NONE",
+			"weight": 65,
+			"value": 150000,
+			"ac": 18,
+			"strength": "15",
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
+			]
+		},
+		{
+			"code": "QUARTERSTAFF",
+			"name": "Quarterstaff",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 4,
+			"value": 20,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"weapon": true
+		},
+		{
+			"code": "RAPIER",
+			"name": "Rapier",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"code": "RENAISSANCE_BULLET",
+			"name": "Renaissance Bullet",
+			"source": "DMG",
+			"page": 268,
+			"type": "AF",
+			"rarity": "NONE",
+			"weight": 0.2,
+			"value": 30,
+			"age": "renaissance"
+		},
+		{
+			"code": "RENAISSANCE_BULLETS(10)",
+			"name": "Renaissance Bullets (10)",
+			"source": "DMG",
+			"page": 268,
+			"type": "AF",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 300,
+			"age": "renaissance",
+			"packContents": [
+				{
+					"item": "renaissance bullet",
+					"quantity": 10
+				}
+			]
+		},
+		{
+			"code": "REVOLVER",
+			"name": "Revolver",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"age": "modern",
+			"property": [
+				"AF",
+				"RLD"
+			],
+			"range": "40/120",
+			"reload": 6,
+			"dmg1": "2d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "modern bullet"
+		},
+		{
+			"code": "RING_MAIL",
+			"name": "Ring Mail",
+			"source": "PHB",
+			"page": 145,
+			"srd": true,
+			"basicRules": true,
+			"type": "HA",
+			"rarity": "NONE",
+			"weight": 40,
+			"value": 3000,
+			"ac": 14,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."
+			]
+		},
+		{
+			"code": "ROD",
+			"name": "Rod",
+			"source": "PHB",
+			"page": 151,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 1000
+		},
+		{
+			"code": "SCALE_MAIL",
+			"name": "Scale Mail",
+			"source": "PHB",
+			"page": 144,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "NONE",
+			"weight": 45,
+			"value": 5000,
+			"ac": 14,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
+			]
+		},
+		{
+			"code": "SCIMITAR",
+			"name": "Scimitar",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 3,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"code": "SHIELD",
+			"name": "Shield",
+			"source": "PHB",
+			"page": 144,
+			"srd": true,
+			"basicRules": true,
+			"type": "S",
+			"rarity": "NONE",
+			"weight": 6,
+			"value": 1000,
+			"ac": 2,
+			"entries": [
+				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{
+			"code": "SHORTBOW",
+			"name": "Shortbow",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
+			"code": "SHORTSWORD",
+			"name": "Shortsword",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"code": "SHOTGUN",
+			"name": "Shotgun",
+			"source": "DMG",
+			"page": 268,
+			"type": "R",
+			"rarity": "NONE",
+			"weight": 7,
+			"weaponCategory": "martial",
+			"age": "modern",
+			"property": [
+				"AF",
+				"RLD",
+				"2H"
+			],
+			"range": "30/90",
+			"reload": 2,
+			"dmg1": "2d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "modern bullet"
+		},
+		{
+			"code": "SICKLE",
+			"name": "Sickle",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"code": "SLING",
+			"name": "Sling",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "NONE",
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"A"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"ammoType": "sling bullet|phb"
+		},
+		{
+			"code": "SLING_BULLET",
+			"name": "Sling Bullet",
+			"source": "PHB",
+			"page": 150,
+			"srd": true,
+			"basicRules": true,
+			"type": "A",
+			"rarity": "NONE",
+			"weight": 0.075,
+			"value": 0.2
+		},
+		{
+			"code": "SLING_BULLETS(20)",
+			"name": "Sling Bullets (20)",
+			"source": "PHB",
+			"page": 150,
+			"srd": true,
+			"basicRules": true,
+			"type": "A",
+			"rarity": "NONE",
+			"weight": 1.5,
+			"value": 4,
+			"packContents": [
+				{
+					"item": "sling bullet|phb",
+					"quantity": 20
+				}
+			]
+		},
+		{
+			"code": "SPEAR",
+			"name": "Spear",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"code": "SPIKED_ARMOR",
+			"name": "Spiked Armor",
+			"source": "SCAG",
+			"page": 121,
+			"type": "MA",
+			"rarity": "UNKNOWN",
+			"weight": 45,
+			"value": 7500,
+			"ac": 14,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
+			]
+		},
+		{
+			"code": "SPLINT_ARMOR",
+			"name": "Splint Armor",
+			"source": "PHB",
+			"page": 145,
+			"srd": true,
+			"basicRules": true,
+			"type": "HA",
+			"rarity": "NONE",
+			"weight": 60,
+			"value": 20000,
+			"ac": 17,
+			"strength": "15",
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."
+			]
+		},
+		{
+			"code": "STAFF",
+			"name": "Staff",
+			"source": "PHB",
+			"page": 151,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "NONE",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true
+		},
+		{
+			"code": "STUDDED_LEATHER_ARMOR",
+			"name": "Studded Leather Armor",
+			"source": "PHB",
+			"page": 144,
+			"srd": true,
+			"basicRules": true,
+			"type": "LA",
+			"rarity": "NONE",
+			"weight": 13,
+			"value": 4500,
+			"ac": 12,
+			"armor": true,
+			"entries": [
+				"Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes."
+			]
+		},
+		{
+			"code": "TRIDENT",
+			"name": "Trident",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"weapon": true
+		},
+		{
+			"code": "WAND",
+			"name": "Wand",
+			"source": "PHB",
+			"page": 151,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "NONE",
+			"weight": 1,
+			"value": 1000
+		},
+		{
+			"code": "WAR_PICK",
+			"name": "War Pick",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"code": "WARHAMMER",
+			"name": "Warhammer",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 2,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"code": "WHIP",
+			"name": "Whip",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 3,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"code": "WOODEN_STAFF",
+			"name": "Wooden Staff",
+			"source": "PHB",
+			"page": 151,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "druid",
+			"rarity": "NONE",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8"
+		},
+		{
+			"code": "YKLWA",
+			"name": "Yklwa",
+			"source": "ToA",
+			"page": 32,
+			"type": "M",
+			"rarity": "NONE",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"T"
+			],
+			"range": "10/30",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
+			]
+		}
+	],
+	"itemEntry": [
+		{
+			"code": "RING_OF_RESISTANCE",
+			"name": "Ring of Resistance",
+			"source": "DMG",
+			"entriesTemplate": [
+				"You have resistance to {{item.resist}} damage while wearing this ring. The ring is set with {{item.detail1}}."
+			]
+		},
+		{
+			"code": "ARMOR_OF_RESISTANCE",
+			"name": "Armor of Resistance",
+			"source": "DMG",
+			"entriesTemplate": [
+				"You have resistance to {{item.resist}} damage while you wear this armor."
+			]
+		},
+		{
+			"code": "POTION_OF_RESISTANCE",
+			"name": "Potion of Resistance",
+			"source": "DMG",
+			"entriesTemplate": [
+				"When you drink this potion, you gain resistance to {{item.resist}} damage for 1 hour."
+			]
+		},
+		{
+			"code": "ABSORBING_TATTOO",
+			"name": "Absorbing Tattoo",
+			"source": "TCE",
+			"entriesTemplate": [
+				"Produced by a special needle, this magic tattoo features designs that emphasize one color ({{item.detail1}}).",
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"While the tattoo is on your skin, you have resistance to {{item.resist}} damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Absorption",
+					"entries": [
+						"When you take {{item.resist}} damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn."
+					]
+				}
+			]
+		},
+		{
+			"code": "CHROMATIC_ROSE",
+			"name": "Chromatic Rose",
+			"source": "WBtW",
+			"entriesTemplate": [
+				"While this rose is held, it {{item.detail1}} as a harmless visual effect.",
+				"While holding the rose by its stem, you gain resistance to {{item.resist}} damage. If you would take more than 10 {{item.resist}} damage from a single source (after applying the resistance), the rose disintegrates, and you take no damage instead.",
+				"As an action, you can blow the petals from the rose to produce a 20-foot cone of {{item.resist}}. Each creature in the cone must make a DC 15 Constitution saving throw, taking {@damage 3d10} {{item.resist}} damage on a failed save, or half as much damage on a successful one. Using this property destroys the rose."
+			]
+		}
+	],
+	"itemTypeAdditionalEntries": [
+		{
+			"appliesTo": "INS",
+			"source": "XGE",
+			"entries": [
+				"Proficiency with a musical instrument indicates you are familiar with the techniques used to play it. You also have knowledge of some songs commonly performed with that instrument.",
+				{
+					"type": "entries",
+					"name": "History",
+					"entries": [
+						"Your expertise aids you in recalling lore related to your instrument."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Performance",
+					"entries": [
+						"Your ability to put on a good show is improved when you incorporate an instrument into your act."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Compose a Tune",
+					"entries": [
+						"As part of a long rest, you can compose a new tune and lyrics for your instrument. You might use this ability to impress a noble or spread scandalous rumors with a catchy tune."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Musical Instrument",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Identify a tune",
+							"10"
+						],
+						[
+							"Improvise a tune",
+							"20"
+						]
+					]
+				}
+			]
+		},
+		{
+			"appliesTo": "GS",
+			"source": "XGE",
+			"entries": [
+				"Proficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.",
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History",
+					"entries": [
+						"Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Insight",
+					"entries": [
+						"Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sleight of Hand",
+					"entries": [
+						"Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Gaming Set",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Catch a player cheating",
+							"15"
+						],
+						[
+							"Gain insight into an opponent's personality",
+							"15"
+						]
+					]
+				}
+			]
+		}
+	]
+}

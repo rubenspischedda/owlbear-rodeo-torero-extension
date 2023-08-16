@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "code": "T",
+            "name": "Tiny",
+            "value": 2.5
+        },
+        {
+            "code": "S",
+            "name": "Small",
+            "value": 5
+        },
+        {
+            "code": "M",
+            "name": "Medium",
+            "value": 5
+        },
+        {
+            "code": "L",
+            "name": "Large",
+            "value": 10
+        },
+        {
+            "code": "H",
+            "name": "Huge",
+            "value": 15
+        },
+        {
+            "code": "G",
+            "name": "Gargantuan",
+            "value": 20
+        }
+    ]
+}

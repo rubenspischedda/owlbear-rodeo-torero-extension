@@ -1,0 +1,1907 @@
+{
+    "data": [
+        {
+            "code": "ABSORBING_TATTOO",
+            "name": "Absorbing Tattoo",
+            "source": "TCE",
+            "page": 119,
+            "rarity": "very rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "tattoo": true,
+            "entries": [
+                "Produced by a special needle, this magic tattoo features designs that emphasize one color.",
+                {
+                    "type": "entries",
+                    "name": "Tattoo Attunement",
+                    "entries": [
+                        "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+                        "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Damage Resistance",
+                    "entries": [
+                        "While the tattoo is on your skin, you have resistance to a type of damage associated with that color, as shown on the table below. The DM chooses the color or determines it randomly.",
+                        {
+                            "type": "table",
+                            "caption": "Absorbing Tattoo",
+                            "colLabels": [
+                                "d10",
+                                "Color",
+                                "Tattoo"
+                            ],
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-2 text-center",
+                                "col-8 text-center"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Green",
+                                    "{@item Acid Absorbing Tattoo|TCE}"
+                                ],
+                                [
+                                    "2",
+                                    "Blue",
+                                    "{@item Cold Absorbing Tattoo|TCE}"
+                                ],
+                                [
+                                    "3",
+                                    "Red",
+                                    "{@item Fire Absorbing Tattoo|TCE}"
+                                ],
+                                [
+                                    "4",
+                                    "White",
+                                    "{@item Force Absorbing Tattoo|TCE}"
+                                ],
+                                [
+                                    "5",
+                                    "Yellow",
+                                    "{@item Lightning Absorbing Tattoo|TCE}"
+                                ],
+                                [
+                                    "6",
+                                    "Black",
+                                    "{@item Necrotic Absorbing Tattoo|TCE}"
+                                ],
+                                [
+                                    "7",
+                                    "Violet",
+                                    "{@item Poison Absorbing Tattoo|TCE}"
+                                ],
+                                [
+                                    "8",
+                                    "Silver",
+                                    "{@item Psychic Absorbing Tattoo|TCE}"
+                                ],
+                                [
+                                    "9",
+                                    "Gold",
+                                    "{@item Radiant Absorbing Tattoo|TCE}"
+                                ],
+                                [
+                                    "10",
+                                    "Orange",
+                                    "{@item Thunder Absorbing Tattoo|TCE}"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Damage Absorption",
+                    "entries": [
+                        "When you take damage of the chosen type, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn."
+                    ]
+                }
+            ],
+            "items": [
+                "Acid Absorbing Tattoo|TCE",
+                "Cold Absorbing Tattoo|TCE",
+                "Fire Absorbing Tattoo|TCE",
+                "Force Absorbing Tattoo|TCE",
+                "Lightning Absorbing Tattoo|TCE",
+                "Necrotic Absorbing Tattoo|TCE",
+                "Poison Absorbing Tattoo|TCE",
+                "Psychic Absorbing Tattoo|TCE",
+                "Radiant Absorbing Tattoo|TCE",
+                "Thunder Absorbing Tattoo|TCE"
+            ]
+        },
+        {
+            "code": "ARCANE_FOCUS",
+            "name": "Arcane Focus",
+            "source": "PHB",
+            "page": 151,
+            "type": "SCF",
+            "scfType": "arcane",
+            "rarity": "none",
+            "focus": [
+                "Sorcerer",
+                "Warlock",
+                "Wizard"
+            ],
+            "items": [
+                "Crystal|phb",
+                "Orb|phb",
+                "Rod|phb",
+                "Staff|phb",
+                "Wand|phb"
+            ]
+        },
+        {
+            "code": "ARMOR_OF_RESISTANCE",
+            "name": "Armor of Resistance",
+            "source": "DMG",
+            "page": 162,
+            "type": "GV",
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "entries": [
+                "You have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.",
+                {
+                    "type": "table",
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "colLabels": [
+                        "d10",
+                        "Damage Type"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@item armor of acid resistance||Acid}"
+                        ],
+                        [
+                            "2",
+                            "{@item armor of cold resistance||Cold}"
+                        ],
+                        [
+                            "3",
+                            "{@item armor of fire resistance||Fire}"
+                        ],
+                        [
+                            "4",
+                            "{@item armor of force resistance||Force}"
+                        ],
+                        [
+                            "5",
+                            "{@item armor of lightning resistance||Lightning}"
+                        ],
+                        [
+                            "6",
+                            "{@item armor of necrotic resistance||Necrotic}"
+                        ],
+                        [
+                            "7",
+                            "{@item armor of poison resistance||Poison}"
+                        ],
+                        [
+                            "8",
+                            "{@item armor of psychic resistance||Psychic}"
+                        ],
+                        [
+                            "9",
+                            "{@item armor of radiant resistance||Radiant}"
+                        ],
+                        [
+                            "10",
+                            "{@item armor of thunder resistance||Thunder}"
+                        ]
+                    ]
+                }
+            ],
+            "items": [
+                "Armor of Acid Resistance",
+                "Armor of Cold Resistance",
+                "Armor of Fire Resistance",
+                "Armor of Force Resistance",
+                "Armor of Lightning Resistance",
+                "Armor of Necrotic Resistance",
+                "Armor of Poison Resistance",
+                "Armor of Psychic Resistance",
+                "Armor of Radiant Resistance",
+                "Armor of Thunder Resistance"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "ARMOR_OF_VULNERABILITY",
+            "name": "Armor of Vulnerability",
+            "source": "DMG",
+            "page": 152,
+            "baseItem": "plate armor|phb",
+            "type": "HA",
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "curse": true,
+            "weight": 65,
+            "ac": 18,
+            "strength": "15",
+            "stealth": true,
+            "items": [
+                "Armor of Vulnerability (Bludgeoning)",
+                "Armor of Vulnerability (Piercing)",
+                "Armor of Vulnerability (Slashing)"
+            ],
+            "lootTables": [
+                "Magic Item Table G"
+            ]
+        },
+        {
+            "code": "ARTISAN'S_TOOLS",
+            "name": "Artisan's Tools",
+            "source": "PHB",
+            "page": 154,
+            "srd": true,
+            "basicRules": true,
+            "type": "AT",
+            "rarity": "none",
+            "items": [
+                "Alchemist's Supplies|PHB",
+                "Brewer's Supplies|PHB",
+                "Calligrapher's Supplies|PHB",
+                "Carpenter's Tools|PHB",
+                "Cartographer's Tools|PHB",
+                "Cobbler's Tools|PHB",
+                "Cook's Utensils|PHB",
+                "Glassblower's Tools|PHB",
+                "Jeweler's Tools|PHB",
+                "Leatherworker's Tools|PHB",
+                "Mason's Tools|PHB",
+                "Painter's Supplies|PHB",
+                "Potter's Tools|PHB",
+                "Smith's Tools|PHB",
+                "Tinker's Tools|PHB",
+                "Weaver's Tools|PHB",
+                "Woodcarver's Tools|PHB"
+            ]
+        },
+        {
+            "code": "BAG_OF_TRICKS",
+            "name": "Bag of Tricks",
+            "source": "DMG",
+            "page": 154,
+            "tier": "major",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "weight": 0.5,
+            "items": [
+                "Bag of Tricks, Gray",
+                "Bag of Tricks, Rust",
+                "Bag of Tricks, Tan"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "BARRIER_TATTOO",
+            "name": "Barrier Tattoo",
+            "source": "UA2020SpellsAndMagicTattoos",
+            "page": 9,
+            "rarity": "varies",
+            "reqAttune": true,
+            "wondrous": true,
+            "tattoo": true,
+            "items": [
+                "Barrier Tattoo (Uncommon)|UA2020SpellsAndMagicTattoos",
+                "Barrier Tattoo (Rare)|UA2020SpellsAndMagicTattoos",
+                "Barrier Tattoo (Very Rare)|UA2020SpellsAndMagicTattoos"
+            ]
+        },
+        {
+            "code": "BELT_OF_GIANT_STRENGTH",
+            "name": "Belt of Giant Strength",
+            "source": "DMG",
+            "page": 155,
+            "rarity": "varies",
+            "reqAttune": true,
+            "wondrous": true,
+            "items": [
+                "Belt of Cloud Giant Strength",
+                "Belt of Fire Giant Strength",
+                "Belt of Frost Giant Strength",
+                "Belt of Hill Giant Strength",
+                "Belt of Stone Giant Strength",
+                "Belt of Storm Giant Strength"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "BLADE_OF_BROKEN_MIRRORS",
+            "name": "Blade of Broken Mirrors",
+            "source": "EGW",
+            "page": 275,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "rarity": "artifact",
+            "reqAttune": "by a humanoid",
+            "reqAttuneTags": [
+                {
+                    "creatureType": "humanoid"
+                }
+            ],
+            "sentient": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "weapon": true,
+            "entries": [
+                "A weapon of Tharizdun, this dagger is a piece of jagged stone whose blade is scribed with a maze-like pattern with no beginning or end."
+            ],
+            "items": [
+                "Blade of Broken Mirrors (Dormant)|EGW",
+                "Blade of Broken Mirrors (Awakened)|EGW",
+                "Blade of Broken Mirrors (Exalted)|EGW"
+            ]
+        },
+        {
+            "code": "CARPET_OF_FLYING",
+            "name": "Carpet of Flying",
+            "source": "DMG",
+            "page": 157,
+            "tier": "major",
+            "rarity": "very rare",
+            "wondrous": true,
+            "items": [
+                "Carpet of Flying, 3 ft. × 5 ft.",
+                "Carpet of Flying, 4 ft. × 6 ft.",
+                "Carpet of Flying, 5 ft. × 7 ft.",
+                "Carpet of Flying, 6 ft. × 9 ft."
+            ],
+            "lootTables": [
+                "Magic Item Table H"
+            ]
+        },
+        {
+            "code": "CHROMATIC_ROSE",
+            "name": "Chromatic Rose",
+            "source": "WBtW",
+            "page": 208,
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This magic rose comes in one of five colors, as noted in the Chromatic Roses table. While a rose is held, it gains a harmless visual effect as indicated on the table.",
+                "While holding the rose by its stem, you gain resistance to damage of the type associated with the rose's color. If you would take more than 10 damage of this type from a single source (after applying the resistance), the rose disintegrates, and you take no damage instead.",
+                "As an action, you can blow the petals from the rose to produce a 20-foot cone of acid, lightning, poisonous gas, fire, or cold, as dictated by the rose's damage type. Each creature in the cone must make a DC 15 Constitution saving throw, taking {@damage 3d10} damage of the appropriate type on a failed save, or half as much damage on a successful one. Using this property destroys the rose.",
+                {
+                    "type": "table",
+                    "caption": "Chromatic Roses",
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-7 text-center",
+                        "col-3 text-center"
+                    ],
+                    "colLabels": [
+                        "Color",
+                        "Visual Effect",
+                        "Damage Type"
+                    ],
+                    "rows": [
+                        [
+                            "{@item Black Chromatic Rose|WBtW|Black}",
+                            "Drips acid",
+                            "Acid"
+                        ],
+                        [
+                            "{@item Blue Chromatic Rose|WBtW|Blue}",
+                            "Crackles with lightning",
+                            "Lightning"
+                        ],
+                        [
+                            "{@item Green Chromatic Rose|WBtW|Green}",
+                            "Issues green gas",
+                            "Poison"
+                        ],
+                        [
+                            "{@item Red Chromatic Rose|WBtW|Red}",
+                            "Wreathed in fire",
+                            "Fire"
+                        ],
+                        [
+                            "{@item White Chromatic Rose|WBtW|White}",
+                            "Covered in frost",
+                            "Cold"
+                        ]
+                    ]
+                }
+            ],
+            "items": [
+                "Black Chromatic Rose|WBtW",
+                "Blue Chromatic Rose|WBtW",
+                "Green Chromatic Rose|WBtW",
+                "Red Chromatic Rose|WBtW",
+                "White Chromatic Rose|WBtW"
+            ]
+        },
+        {
+            "code": "CRYSTAL_BALL(LEGENDARY_VERSION)",
+            "name": "Crystal Ball (Legendary Version)",
+            "source": "DMG",
+            "page": 159,
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "weight": 3,
+            "items": [
+                "Crystal Ball of Mind Reading",
+                "Crystal Ball of Telepathy",
+                "Crystal Ball of True Seeing"
+            ],
+            "attachedSpells": [
+                "scrying"
+            ],
+            "lootTables": [
+                "Magic Item Table I"
+            ]
+        },
+        {
+            "code": "DANOTH'S_VISOR",
+            "name": "Danoth's Visor",
+            "source": "EGW",
+            "page": 270,
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "These mithral-frame goggles with clear diamond lenses were used by the evoker Danoth Oro to spot {@condition invisible} enemies and scout areas from afar."
+            ],
+            "items": [
+                "Danoth's Visor (Dormant)|EGW",
+                "Danoth's Visor (Awakened)|EGW",
+                "Danoth's Visor (Exalted)|EGW"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "DEVASTATION_ORB",
+            "name": "Devastation Orb",
+            "source": "PotA",
+            "page": 222,
+            "rarity": "very rare",
+            "wondrous": true,
+            "entries": [
+                "A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a {@item devastation orb of air|PotA}. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.",
+                "A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as {@spell identify} and {@spell divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
+                "A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a {@item devastation orb of air|PotA} and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes {@dice 1d6} rounds later, unless it is returned to the container.",
+                "Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use."
+            ],
+            "items": [
+                "Devastation Orb of Air|PotA",
+                "Devastation Orb of Earth|PotA",
+                "Devastation Orb of Fire|PotA",
+                "Devastation Orb of Water|PotA"
+            ]
+        },
+        {
+            "code": "DRAGON_SCALE_MAIL",
+            "name": "Dragon Scale Mail",
+            "source": "DMG",
+            "page": 165,
+            "srd": true,
+            "type": "MA",
+            "tier": "major",
+            "rarity": "very rare",
+            "reqAttune": true,
+            "weight": 45,
+            "ac": 14,
+            "stealth": true,
+            "items": [
+                "Black Dragon Scale Mail",
+                "Blue Dragon Scale Mail",
+                "Brass Dragon Scale Mail",
+                "Bronze Dragon Scale Mail",
+                "Copper Dragon Scale Mail",
+                "Gold Dragon Scale Mail",
+                "Green Dragon Scale Mail",
+                "Red Dragon Scale Mail",
+                "Silver Dragon Scale Mail",
+                "White Dragon Scale Mail"
+            ],
+            "lootTables": [
+                "Magic Item Table H"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "DRAGON_VESSEL",
+            "name": "Dragon Vessel",
+            "source": "FTD",
+            "page": 27,
+            "rarity": "varies",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "This vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid."
+            ],
+            "items": [
+                "Slumbering Dragon Vessel|FTD",
+                "Stirring Dragon Vessel|FTD",
+                "Wakened Dragon Vessel|FTD",
+                "Ascendant Dragon Vessel|FTD"
+            ]
+        },
+        {
+            "code": "DRAGON'S_WRATH_WEAPON",
+            "name": "Dragon's Wrath Weapon",
+            "source": "FTD",
+            "page": 25,
+            "type": "GV",
+            "rarity": "varies",
+            "reqAttune": true,
+            "entries": [
+                "This weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties."
+            ],
+            "items": [
+                "Slumbering Dragon's Wrath Weapon|FTD",
+                "Stirring Dragon's Wrath Weapon|FTD",
+                "Wakened Dragon's Wrath Weapon|FTD",
+                "Ascendant Dragon's Wrath Weapon|FTD"
+            ]
+        },
+        {
+            "code": "DRAGON_TOUCHED_FOCUS",
+            "name": "Dragon-Touched Focus",
+            "source": "FTD",
+            "page": 26,
+            "rarity": "varies",
+            "reqAttune": "by a spellcaster",
+            "reqAttuneTags": [
+                {
+                    "spellcasting": true
+                }
+            ],
+            "wondrous": true,
+            "focus": [
+                "Artificer",
+                "Bard",
+                "Cleric",
+                "Druid",
+                "Paladin",
+                "Ranger",
+                "Sorcerer",
+                "Warlock",
+                "Wizard"
+            ],
+            "entries": [
+                "This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales."
+            ],
+            "items": [
+                "Slumbering Dragon-Touched Focus|FTD",
+                "Stirring Dragon-Touched Focus|FTD",
+                "Wakened Dragon-Touched Focus|FTD",
+                "Ascendant Dragon-Touched Focus|FTD"
+            ]
+        },
+        {
+            "code": "DRUIDIC_FOCUS",
+            "name": "Druidic Focus",
+            "source": "PHB",
+            "page": 151,
+            "type": "SCF",
+            "scfType": "druid",
+            "rarity": "none",
+            "focus": [
+                "Druid"
+            ],
+            "items": [
+                "Sprig of mistletoe|phb",
+                "Totem|phb",
+                "Wooden staff|phb",
+                "Yew wand|phb"
+            ]
+        },
+        {
+            "code": "ELEMENTAL_GEM",
+            "name": "Elemental Gem",
+            "source": "DMG",
+            "page": 167,
+            "tier": "minor",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "items": [
+                "Elemental Gem, Blue Sapphire",
+                "Elemental Gem, Emerald",
+                "Elemental Gem, Red Corundum",
+                "Elemental Gem, Yellow Diamond"
+            ],
+            "attachedSpells": [
+                "conjure elemental"
+            ],
+            "lootTables": [
+                "Magic Item Table B"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "FIGURINE_OF_WONDROUS_POWER",
+            "name": "Figurine of Wondrous Power",
+            "source": "DMG",
+            "page": 169,
+            "rarity": "varies",
+            "wondrous": true,
+            "items": [
+                "Figurine of Wondrous Power, Bronze Griffon",
+                "Figurine of Wondrous Power, Ebony Fly",
+                "Figurine of Wondrous Power, Golden Lions",
+                "Figurine of Wondrous Power, Ivory Goats",
+                "Figurine of Wondrous Power, Marble Elephant",
+                "Figurine of Wondrous Power, Obsidian Steed",
+                "Figurine of Wondrous Power, Onyx Dog",
+                "Figurine of Wondrous Power, Serpentine Owl",
+                "Figurine of Wondrous Power, Silver Raven"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "FLENSING_CLAWS",
+            "name": "Flensing Claws",
+            "source": "VGM",
+            "page": 81,
+            "type": "OTH",
+            "rarity": "unknown",
+            "dmgType": "S",
+            "entries": [
+                "{@creature mind flayer||Illithids} don't always provide their thralls with normal weapons, such as swords and axes. Sometimes they improve the natural capabilities of thralls by giving them new anatomy. Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+                "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The claws deal slashing damage based on the creature's size. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws. Tiny and Gargantuan creatures can't be fitted with flensing claws."
+            ],
+            "items": [
+                "Flensing Claws (Small)|VGM",
+                "Flensing Claws (Medium)|VGM",
+                "Flensing Claws (Large)|VGM",
+                "Flensing Claws (Huge)|VGM"
+            ]
+        },
+        {
+            "code": "GAMING_SET",
+            "name": "Gaming Set",
+            "source": "PHB",
+            "page": 154,
+            "srd": true,
+            "basicRules": true,
+            "type": "GS",
+            "rarity": "none",
+            "items": [
+                "Dice Set|PHB",
+                "Dragonchess Set|PHB",
+                "Playing Card Set|PHB",
+                "Three-Dragon Ante Set|PHB"
+            ]
+        },
+        {
+            "code": "GLAMERWEAVE",
+            "name": "Glamerweave",
+            "source": "ERLW",
+            "page": 277,
+            "rarity": "varies",
+            "wondrous": true,
+            "items": [
+                "Common Glamerweave|ERLW",
+                "Uncommon Glamerweave|ERLW"
+            ]
+        },
+        {
+            "code": "GRIMOIRE_INFINITUS",
+            "name": "Grimoire Infinitus",
+            "source": "EGW",
+            "page": 271,
+            "rarity": "legendary",
+            "reqAttune": "by a wizard",
+            "reqAttuneTags": [
+                {
+                    "class": "wizard"
+                }
+            ],
+            "wondrous": true,
+            "weight": 3,
+            "entries": [
+                "Several of these spellbooks with gilded pages and silver-plated covers were created during the Age of Arcanum, but only one has been found since the Calamity ended. The book has an infinite number of pages, is three inches thick, eight inches wide, twelve inches long, and weighs three pounds."
+            ],
+            "items": [
+                "Grimoire Infinitus (Dormant)|EGW",
+                "Grimoire Infinitus (Awakened)|EGW",
+                "Grimoire Infinitus (Exalted)|EGW"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "GROVELTHRASH",
+            "name": "Grovelthrash",
+            "source": "EGW",
+            "page": 275,
+            "baseItem": "warhammer|PHB",
+            "type": "M",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "sentient": true,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "B",
+            "dmg2": "1d10",
+            "weapon": true,
+            "entries": [
+                "Crafted from a single piece of obsidian, this warhammer of Torog hums with magical energy and is carved with the images of faces screaming in pain."
+            ],
+            "items": [
+                "Grovelthrash (Dormant)|EGW",
+                "Grovelthrash (Awakened)|EGW",
+                "Grovelthrash (Exalted)|EGW"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "GUILD_KEYRUNE",
+            "name": "Guild Keyrune",
+            "source": "GGR",
+            "page": 177,
+            "rarity": "varies",
+            "reqAttune": "by a member of the relevant guild",
+            "wondrous": true,
+            "entries": [
+                "Associated with a particular guild, a guild keyrune is a ceremonial, stylized key, about 1 foot long, made from carved stone. Not a literal key, the item is a badge of authority that gives its bearer access to privileged places in its guild's headquarters and outposts. At the DM's discretion, a character might be given a keyrune upon attaining a renown score of 25 in their guild."
+            ],
+            "items": [
+                "Azorius Keyrune|GGR",
+                "Boros Keyrune|GGR",
+                "Dimir Keyrune|GGR",
+                "Golgari Keyrune|GGR",
+                "Gruul Keyrune|GGR",
+                "Izzet Keyrune|GGR",
+                "Orzhov Keyrune|GGR",
+                "Rakdos Keyrune|GGR",
+                "Selesnya Keyrune|GGR",
+                "Simic Keyrune|GGR"
+            ]
+        },
+        {
+            "code": "GUILD_SIGNET",
+            "name": "Guild Signet",
+            "source": "GGR",
+            "page": 178,
+            "type": "RG",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "charges": 3,
+            "entries": [
+                "A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor."
+            ],
+            "items": [
+                "Azorius Guild Signet|GGR",
+                "Boros Guild Signet|GGR",
+                "Dimir Guild Signet|GGR",
+                "Golgari Guild Signet|GGR",
+                "Gruul Guild Signet|GGR",
+                "Izzet Guild Signet|GGR",
+                "Orzhov Guild Signet|GGR",
+                "Rakdos Guild Signet|GGR",
+                "Selesnya Guild Signet|GGR",
+                "Simic Guild Signet|GGR"
+            ]
+        },
+        {
+            "code": "HIDE_OF_THE_FERAL_GUARDIAN",
+            "name": "Hide of the Feral Guardian",
+            "source": "EGW",
+            "page": 271,
+            "baseItem": "studded leather armor|PHB",
+            "type": "LA",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 13,
+            "ac": 12,
+            "entries": [
+                "It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity."
+            ],
+            "items": [
+                "Hide of the Feral Guardian (Dormant)|EGW",
+                "Hide of the Feral Guardian (Awakened)|EGW",
+                "Hide of the Feral Guardian (Exalted)|EGW"
+            ],
+            "attachedSpells": [
+                "polymorph"
+            ]
+        },
+        {
+            "code": "HOLY_SYMBOL",
+            "name": "Holy Symbol",
+            "source": "PHB",
+            "page": 151,
+            "type": "SCF",
+            "scfType": "holy",
+            "rarity": "none",
+            "focus": [
+                "Cleric",
+                "Paladin"
+            ],
+            "items": [
+                "Amulet|phb",
+                "Emblem|phb",
+                "Reliquary|phb"
+            ]
+        },
+        {
+            "code": "HORN_OF_VALHALLA",
+            "name": "Horn of Valhalla",
+            "source": "DMG",
+            "page": 175,
+            "rarity": "varies",
+            "wondrous": true,
+            "items": [
+                "Horn of Valhalla, Brass",
+                "Horn of Valhalla, Bronze",
+                "Horn of Valhalla, Iron",
+                "Horn of Valhalla, Silver"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "IMBUED_WOOD_FOCUS",
+            "name": "Imbued Wood Focus",
+            "source": "ERLW",
+            "page": 277,
+            "type": "SCF",
+            "scfType": "arcane",
+            "rarity": "common",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "An imbued wood focus is a rod, staff, or wand cut from a tree infused with extraplanar energy. If you're a spellcaster, you can use this as a spellcasting focus.",
+                "When you cast a damage-dealing spell using this item as your spellcasting focus, you gain a +1 bonus to one damage roll of the spell, provided the damage is of the type associated with the item's wood. The types of wood and their associated damage types are listed in the Imbued Wood Focus table.",
+                {
+                    "type": "table",
+                    "caption": "Imbued Wood Focus",
+                    "colLabels": [
+                        "Wood",
+                        "Damage Type"
+                    ],
+                    "colStyles": [
+                        "col-6",
+                        "col-6"
+                    ],
+                    "rows": [
+                        [
+                            "{@item Imbued Wood (Fernian Ash)|ERLW|Fernian Ash}",
+                            "Fire"
+                        ],
+                        [
+                            "{@item Imbued Wood (Irian Rosewood)|ERLW|Irian Rosewood}",
+                            "Radiant"
+                        ],
+                        [
+                            "{@item Imbued Wood (Kythrian Manchineel)|ERLW|Kythrian Manchineel}",
+                            "Acid or poison"
+                        ],
+                        [
+                            "{@item Imbued Wood (Lamannian Oak)|ERLW|Lamannian Oak}",
+                            "Lightning or thunder"
+                        ],
+                        [
+                            "{@item Imbued Wood (Mabaran Ebony)|ERLW|Mabaran Ebony}",
+                            "Necrotic"
+                        ],
+                        [
+                            "{@item Imbued Wood (Risian Pine)|ERLW|Risian Pine}",
+                            "Cold"
+                        ],
+                        [
+                            "{@item Imbued Wood (Shavarran Birch)|ERLW|Shavarran Birch}",
+                            "Force"
+                        ],
+                        [
+                            "{@item Imbued Wood (Xorian Wenge)|ERLW|Xorian Wenge}",
+                            "Psychic"
+                        ]
+                    ]
+                }
+            ],
+            "items": [
+                "Imbued Wood (Fernian Ash)|ERLW",
+                "Imbued Wood (Irian Rosewood)|ERLW",
+                "Imbued Wood (Kythrian Manchineel)|ERLW",
+                "Imbued Wood (Lamannian Oak)|ERLW",
+                "Imbued Wood (Mabaran Ebony)|ERLW",
+                "Imbued Wood (Risian Pine)|ERLW",
+                "Imbued Wood (Shavarran Birch)|ERLW",
+                "Imbued Wood (Xorian Wenge)|ERLW"
+            ]
+        },
+        {
+            "code": "INFILTRATOR'S_KEY",
+            "name": "Infiltrator's Key",
+            "source": "EGW",
+            "page": 272,
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "grantsProficiency": true,
+            "entries": [
+                "This mithral skeleton key was forged using the blood of twelve master thieves executed for trying to steal magic items during the Age of Arcanum."
+            ],
+            "items": [
+                "Infiltrator's Key (Dormant)|EGW",
+                "Infiltrator's Key (Awakened)|EGW",
+                "Infiltrator's Key (Exalted)|EGW"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "INSTRUMENT_OF_THE_BARDS",
+            "name": "Instrument of the Bards",
+            "source": "DMG",
+            "page": 176,
+            "type": "INS",
+            "rarity": "varies",
+            "reqAttune": "by a bard",
+            "reqAttuneTags": [
+                {
+                    "class": "bard"
+                }
+            ],
+            "wondrous": true,
+            "entries": [
+                "An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+                "You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
+                "You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+                "All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}."
+            ],
+            "items": [
+                "Instrument of the Bards, Anstruth Harp",
+                "Instrument of the Bards, Canaith Mandolin",
+                "Instrument of the Bards, Cli Lyre",
+                "Instrument of the Bards, Doss Lute",
+                "Instrument of the Bards, Fochlucan Bandore",
+                "Instrument of the Bards, Mac-Fuirmidh Cittern",
+                "Instrument of the Bards, Ollamh Harp"
+            ],
+            "attachedSpells": [
+                "fly",
+                "invisibility",
+                "levitate",
+                "protection from evil and good"
+            ]
+        },
+        {
+            "code": "IOUN_STONE",
+            "name": "Ioun Stone",
+            "source": "DMG",
+            "page": 176,
+            "rarity": "varies",
+            "reqAttune": true,
+            "wondrous": true,
+            "items": [
+                "Ioun Stone, Absorption",
+                "Ioun Stone, Agility",
+                "Ioun Stone, Awareness",
+                "Ioun Stone, Fortitude",
+                "Ioun Stone, Greater Absorption",
+                "Ioun Stone, Insight",
+                "Ioun Stone, Intellect",
+                "Ioun Stone, Leadership",
+                "Ioun Stone, Mastery",
+                "Ioun Stone, Protection",
+                "Ioun Stone, Regeneration",
+                "Ioun Stone, Reserve",
+                "Ioun Stone, Strength",
+                "Ioun Stone, Sustenance"
+            ]
+        },
+        {
+            "code": "IOUN_STONE",
+            "name": "Ioun Stone",
+            "source": "LLK",
+            "page": 55,
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "items": [
+                "Ioun Stone, Supreme Intellect|LLK",
+                "Ioun Stone, Historical Knowledge|LLK",
+                "Ioun Stone, Natural Knowledge|LLK",
+                "Ioun Stone, Religious Knowledge|LLK",
+                "Ioun Stone, Language Knowledge|LLK",
+                "Ioun Stone, Self-Preservation|LLK"
+            ]
+        },
+        {
+            "code": "JEWEL_OF_THREE_PRAYERS",
+            "name": "Jewel of Three Prayers",
+            "source": "CRCotN",
+            "page": 213,
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "recharge": "dawn",
+            "items": [
+                "Jewel of Three Prayers (Dormant)|CRCotN",
+                "Jewel of Three Prayers (Awakened)|CRCotN",
+                "Jewel of Three Prayers (Exalted)|CRCotN"
+            ],
+            "attachedSpells": [
+                "invisibility"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "LASH_OF_SHADOWS",
+            "name": "Lash of Shadows",
+            "source": "EGW",
+            "page": 276,
+            "baseItem": "whip|PHB",
+            "type": "M",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "sentient": true,
+            "weight": 3,
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "R"
+            ],
+            "dmg1": "1d4",
+            "dmgType": "S",
+            "weapon": true,
+            "entries": [
+                "This snakeskin whip is touched by the power of Zehir and ends in five animated serpent heads."
+            ],
+            "items": [
+                "Lash of Shadows (Dormant)|EGW",
+                "Lash of Shadows (Awakened)|EGW",
+                "Lash of Shadows (Exalted)|EGW"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "MACE_OF_THE_BLACK_CROWN",
+            "name": "Mace of the Black Crown",
+            "source": "EGW",
+            "page": 276,
+            "baseItem": "mace|PHB",
+            "type": "M",
+            "resist": [
+                "fire",
+                "poison"
+            ],
+            "rarity": "artifact",
+            "reqAttune": true,
+            "sentient": true,
+            "weight": 4,
+            "weaponCategory": "simple",
+            "dmg1": "1d6",
+            "dmgType": "B",
+            "weapon": true,
+            "entries": [
+                "This mace has a haft of black iron and a ruby head with a fiendish countenance. Carrying the boon of Asmodeus, it is fit for the most powerful servants of the Nine Hells."
+            ],
+            "items": [
+                "Mace of the Black Crown (Dormant)|EGW",
+                "Mace of the Black Crown (Awakened)|EGW",
+                "Mace of the Black Crown (Exalted)|EGW"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "MANUAL_OF_GOLEMS",
+            "name": "Manual of Golems",
+            "source": "DMG",
+            "page": 180,
+            "tier": "major",
+            "rarity": "very rare",
+            "wondrous": true,
+            "weight": 5,
+            "items": [
+                "Manual of Clay Golems",
+                "Manual of Flesh Golems",
+                "Manual of Iron Golems",
+                "Manual of Stone Golems"
+            ],
+            "lootTables": [
+                "Magic Item Table H"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "MUSICAL_INSTRUMENT",
+            "name": "Musical Instrument",
+            "source": "PHB",
+            "page": 154,
+            "srd": true,
+            "basicRules": true,
+            "type": "INS",
+            "rarity": "none",
+            "items": [
+                "Bagpipes|PHB",
+                "Drum|PHB",
+                "Dulcimer|PHB",
+                "Flute|PHB",
+                "Horn|PHB",
+                "Lute|PHB",
+                "Lyre|PHB",
+                "Pan Flute|PHB",
+                "Shawm|PHB",
+                "Viol|PHB"
+            ]
+        },
+        {
+            "code": "MUSICAL_INSTRUMENT",
+            "name": "Musical Instrument",
+            "source": "SCAG",
+            "page": 124,
+            "type": "INS",
+            "rarity": "none",
+            "items": [
+                "Birdpipes|SCAG",
+                "Glaur|SCAG",
+                "Hand Drum|SCAG",
+                "Longhorn|SCAG",
+                "Shawm|SCAG",
+                "Songhorn|SCAG",
+                "Tantan|SCAG",
+                "Thelarr|SCAG",
+                "Tocken|SCAG",
+                "Wargong|SCAG",
+                "Yarting|SCAG",
+                "Zulkoon|SCAG"
+            ]
+        },
+        {
+            "code": "ORB_OF_SHIELDING",
+            "name": "Orb of Shielding",
+            "source": "ERLW",
+            "page": 278,
+            "type": "SCF",
+            "scfType": "arcane",
+            "rarity": "common",
+            "reqAttune": true,
+            "wondrous": true,
+            "weight": 3,
+            "entries": [
+                "An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.",
+                "If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.",
+                {
+                    "type": "table",
+                    "caption": "Orb of Shielding",
+                    "colLabels": [
+                        "Planar Material",
+                        "Damage Type"
+                    ],
+                    "colStyles": [
+                        "col-6",
+                        "col-6"
+                    ],
+                    "rows": [
+                        [
+                            "{@item Orb of Shielding (Fernian Basalt)|ERLW|Fernian basalt}",
+                            "Fire"
+                        ],
+                        [
+                            "{@item Orb of Shielding (Irian Quartz)|ERLW|Irian quartz}",
+                            "Radiant"
+                        ],
+                        [
+                            "{@item Orb of Shielding (Kythrian Skarn)|ERLW|Kythrian skarn}",
+                            "Acid and poison"
+                        ],
+                        [
+                            "{@item Orb of Shielding (Lamannian Flint)|ERLW|Lamannian flint}",
+                            "Lightning and thunder"
+                        ],
+                        [
+                            "{@item Orb of Shielding (Mabaran Obsidian)|ERLW|Mabaran obsidian}",
+                            "Necrotic"
+                        ],
+                        [
+                            "{@item Orb of Shielding (Risian Shale)|ERLW|Risian shale}",
+                            "Cold"
+                        ],
+                        [
+                            "{@item Orb of Shielding (Shavarran Chert)|ERLW|Shavarran chert}",
+                            "Force"
+                        ],
+                        [
+                            "{@item Orb of Shielding (Xorian Marble)|ERLW|Xorian marble}",
+                            "Psychic"
+                        ]
+                    ]
+                }
+            ],
+            "items": [
+                "Orb of Shielding (Fernian Basalt)|ERLW",
+                "Orb of Shielding (Irian Quartz)|ERLW",
+                "Orb of Shielding (Kythrian Skarn)|ERLW",
+                "Orb of Shielding (Lamannian Flint)|ERLW",
+                "Orb of Shielding (Mabaran Obsidian)|ERLW",
+                "Orb of Shielding (Risian Shale)|ERLW",
+                "Orb of Shielding (Shavarran Chert)|ERLW",
+                "Orb of Shielding (Xorian Marble)|ERLW"
+            ]
+        },
+        {
+            "code": "POTION_OF_GIANT_STRENGTH",
+            "name": "Potion of Giant Strength",
+            "source": "DMG",
+            "page": 187,
+            "type": "P",
+            "rarity": "varies",
+            "items": [
+                "Potion of Cloud Giant Strength",
+                "Potion of Fire Giant Strength",
+                "Potion of Frost Giant Strength",
+                "Potion of Hill Giant Strength",
+                "Potion of Stone Giant Strength",
+                "Potion of Storm Giant Strength"
+            ]
+        },
+        {
+            "code": "POTION_OF_HEALING(*)",
+            "name": "Potion of Healing (*)",
+            "source": "DMG",
+            "page": 187,
+            "srd": true,
+            "type": "P",
+            "rarity": "varies",
+            "entries": [
+                "{@note * This item group has the same name and source as the item {@item potion of healing}}."
+            ],
+            "items": [
+                "Potion of Healing",
+                "Potion of Greater Healing",
+                "Potion of Superior Healing",
+                "Potion of Supreme Healing"
+            ]
+        },
+        {
+            "code": "POTION_OF_MIND_CONTROL",
+            "name": "Potion of Mind Control",
+            "source": "TftYP",
+            "page": 229,
+            "type": "P",
+            "rarity": "varies",
+            "items": [
+                "Potion of Mind Control (beast)|TftYP",
+                "Potion of Mind Control (humanoid)|TftYP",
+                "Potion of Mind Control (monster)|TftYP"
+            ]
+        },
+        {
+            "code": "POTION_OF_RESISTANCE",
+            "name": "Potion of Resistance",
+            "source": "DMG",
+            "page": 188,
+            "type": "P",
+            "tier": "minor",
+            "rarity": "uncommon",
+            "items": [
+                "Potion of Acid Resistance",
+                "Potion of Cold Resistance",
+                "Potion of Fire Resistance",
+                "Potion of Force Resistance",
+                "Potion of Lightning Resistance",
+                "Potion of Necrotic Resistance",
+                "Potion of Poison Resistance",
+                "Potion of Psychic Resistance",
+                "Potion of Radiant Resistance",
+                "Potion of Thunder Resistance"
+            ],
+            "lootTables": [
+                "Magic Item Table B"
+            ]
+        },
+        {
+            "code": "QUAAL'S_FEATHER_TOKEN",
+            "name": "Quaal's Feather Token",
+            "source": "DMG",
+            "page": 188,
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect. The DM chooses the kind of token or determines it randomly.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d100",
+                        "Feather Token"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "01-20",
+                            "{@item Quaal's Feather Token, Anchor||Anchor}"
+                        ],
+                        [
+                            "21-35",
+                            "{@item Quaal's Feather Token, Bird||Bird}"
+                        ],
+                        [
+                            "36-50",
+                            "{@item Quaal's Feather Token, Fan||Fan}"
+                        ],
+                        [
+                            "51-65",
+                            "{@item Quaal's Feather Token, Swan Boat||Boat}"
+                        ],
+                        [
+                            "66-90",
+                            "{@item Quaal's Feather Token, Tree||Tree}"
+                        ],
+                        [
+                            "91-100",
+                            "{@item Quaal's Feather Token, Whip||Whip}"
+                        ]
+                    ]
+                }
+            ],
+            "items": [
+                "Quaal's Feather Token, Anchor",
+                "Quaal's Feather Token, Bird",
+                "Quaal's Feather Token, Fan",
+                "Quaal's Feather Token, Swan Boat",
+                "Quaal's Feather Token, Tree",
+                "Quaal's Feather Token, Whip"
+            ],
+            "lootTables": [
+                "Magic Item Table C"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "RING_OF_ELEMENTAL_COMMAND",
+            "name": "Ring of Elemental Command",
+            "source": "DMG",
+            "page": 190,
+            "type": "RG",
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "charges": 5,
+            "items": [
+                "Ring of Air Elemental Command",
+                "Ring of Earth Elemental Command",
+                "Ring of Fire Elemental Command",
+                "Ring of Water Elemental Command"
+            ]
+        },
+        {
+            "code": "RING_OF_RESISTANCE",
+            "name": "Ring of Resistance",
+            "source": "DMG",
+            "page": 192,
+            "type": "RG",
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "entries": [
+                "You have resistance to one damage type while wearing this ring. The gem in the ring indicates the type, which the DM chooses or determines randomly. ",
+                {
+                    "type": "table",
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-5",
+                        "col-5"
+                    ],
+                    "colLabels": [
+                        "d10",
+                        "Damage Type",
+                        "Gem"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@item ring of acid resistance||Acid}",
+                            "Pearl"
+                        ],
+                        [
+                            "2",
+                            "{@item ring of cold resistance||Cold}",
+                            "Tourmaline"
+                        ],
+                        [
+                            "3",
+                            "{@item ring of fire resistance||Fire}",
+                            "Garnet"
+                        ],
+                        [
+                            "4",
+                            "{@item ring of force resistance||Force}",
+                            "Sapphire"
+                        ],
+                        [
+                            "5",
+                            "{@item ring of lightning resistance||Lightning}",
+                            "Citrine"
+                        ],
+                        [
+                            "6",
+                            "{@item ring of necrotic resistance||Necrotic}",
+                            "Jet"
+                        ],
+                        [
+                            "7",
+                            "{@item ring of poison resistance||Poison}",
+                            "Amethyst"
+                        ],
+                        [
+                            "8",
+                            "{@item ring of psychic resistance||Psychic}",
+                            "Jade"
+                        ],
+                        [
+                            "9",
+                            "{@item ring of radiant resistance||Radiant}",
+                            "Topaz"
+                        ],
+                        [
+                            "10",
+                            "{@item ring of thunder resistance||Thunder}",
+                            "Spinel"
+                        ]
+                    ]
+                }
+            ],
+            "items": [
+                "Ring of Acid Resistance",
+                "Ring of Cold Resistance",
+                "Ring of Fire Resistance",
+                "Ring of Force Resistance",
+                "Ring of Lightning Resistance",
+                "Ring of Necrotic Resistance",
+                "Ring of Poison Resistance",
+                "Ring of Psychic Resistance",
+                "Ring of Radiant Resistance",
+                "Ring of Thunder Resistance"
+            ],
+            "lootTables": [
+                "Magic Item Table G"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "RUIN'S_WAKE",
+            "name": "Ruin's Wake",
+            "source": "EGW",
+            "page": 277,
+            "baseItem": "spear|PHB",
+            "type": "M",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "sentient": true,
+            "weight": 3,
+            "weaponCategory": "simple",
+            "property": [
+                "T",
+                "V"
+            ],
+            "range": "20/60",
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "dmg2": "1d8",
+            "weapon": true,
+            "entries": [
+                "This spear is made from the ivory bone of an ancient gold dragon and carved with an Orc hymn to Gruumsh."
+            ],
+            "items": [
+                "Ruin's Wake (Dormant)|EGW",
+                "Ruin's Wake (Awakened)|EGW",
+                "Ruin's Wake (Exalted)|EGW"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "SCALED_ORNAMENT",
+            "name": "Scaled Ornament",
+            "source": "FTD",
+            "page": 27,
+            "rarity": "varies",
+            "reqAttune": true,
+            "wondrous": true,
+            "bonusAc": "+1",
+            "modifySpeed": {
+                "equal": {
+                    "fly": "walk"
+                }
+            },
+            "entries": [
+                "This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes."
+            ],
+            "items": [
+                "Slumbering Scaled Ornament|FTD",
+                "Stirring Scaled Ornament|FTD",
+                "Wakened Scaled Ornament|FTD",
+                "Ascendant Scaled Ornament|FTD"
+            ]
+        },
+        {
+            "code": "SCROLL_OF_PROTECTION",
+            "name": "Scroll of Protection",
+            "source": "DMG",
+            "page": 199,
+            "type": "SC",
+            "tier": "minor",
+            "rarity": "rare",
+            "items": [
+                "Scroll of Protection from Aberrations",
+                "Scroll of Protection from Beasts",
+                "Scroll of Protection from Celestials",
+                "Scroll of Protection from Elementals",
+                "Scroll of Protection from Fey",
+                "Scroll of Protection from Fiends",
+                "Scroll of Protection from Plants",
+                "Scroll of Protection from Undead"
+            ],
+            "lootTables": [
+                "Magic Item Table C"
+            ]
+        },
+        {
+            "code": "SHARD_SOLITAIRE",
+            "name": "Shard Solitaire",
+            "source": "KftGV",
+            "page": 193,
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d6}",
+            "charges": 6,
+            "entries": [
+                "This gemstone contains an unstable extradimensional rift. Its facets are ribboned with iridescent veins that seem to move of their own accord. Five types of shard solitaire are known to exist, each one a different type of gemstone, as shown in the Shard Solitaire Types table.",
+                {
+                    "type": "entries",
+                    "name": "Rift Step",
+                    "entries": [
+                        "As a bonus action, while wearing or holding the shard solitaire, you can teleport yourself, along with anything you're wearing or carrying, to an unoccupied space you can see within 30 feet of yourself.",
+                        "When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take {@damage 3d10} force damage immediately after you teleport."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting",
+                    "entries": [
+                        "The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. The Shard Solitaire Types table lists the spells common to all shard solitaires, as well as the spells specific to each kind of stone. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16).",
+                        {
+                            "type": "table",
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-10"
+                            ],
+                            "colLabels": [
+                                "Shard Solitaire",
+                                "Spells"
+                            ],
+                            "rows": [
+                                [
+                                    "All",
+                                    "{@spell Banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), {@spell mirror image} (1 charge)"
+                                ],
+                                [
+                                    "Black sapphire",
+                                    "{@spell Blight} (3 charges), {@spell finger of death} (6 charges)"
+                                ],
+                                [
+                                    "Diamond",
+                                    "{@spell Ice storm} (3 charges), {@spell simulacrum} (6 charges; the duplicate created by the spell has the same number of hit points as the creature it imitates)"
+                                ],
+                                [
+                                    "Jacinth",
+                                    "{@spell Fireball} (2 charges), {@spell fire storm} (6 charges)"
+                                ],
+                                [
+                                    "Rainbow pearl",
+                                    "{@spell Prismatic spray} (6 charges), {@spell water breathing} (2 charges)"
+                                ],
+                                [
+                                    "Ruby",
+                                    "{@spell Fly} (2 charges), {@spell teleport} (6 charges)"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "items": [
+                "Shard Solitaire (Black Sapphire)|KftGV",
+                "Shard Solitaire (Diamond)|KftGV",
+                "Shard Solitaire (Jacinth)|KftGV",
+                "Shard Solitaire (Rainbow Pearl)|KftGV",
+                "Shard Solitaire (Ruby)|KftGV"
+            ],
+            "attachedSpells": [
+                "mirror image",
+                "banishment"
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "code": "SILKEN_SPITE",
+            "name": "Silken Spite",
+            "source": "EGW",
+            "page": 277,
+            "baseItem": "rapier|PHB",
+            "type": "M",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "sentient": true,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "property": [
+                "F"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "modifySpeed": {
+                "equal": {
+                    "climb": "walk"
+                }
+            },
+            "sword": true,
+            "weapon": true,
+            "entries": [
+                "The blade of this rapier is made of spider silk. Its onyx pommel is tipped with a ruby cut in the shape of a spider, and the blade carries the blessing of Lolth."
+            ],
+            "items": [
+                "Silken Spite (Dormant)|EGW",
+                "Silken Spite (Awakened)|EGW",
+                "Silken Spite (Exalted)|EGW"
+            ]
+        },
+        {
+            "code": "SPELL_GEM",
+            "name": "Spell Gem",
+            "source": "OotA",
+            "page": 223,
+            "otherSources": [
+                {
+                    "source": "IMR",
+                    "page": 95
+                }
+            ],
+            "rarity": "varies",
+            "reqAttune": "optional",
+            "wondrous": true,
+            "items": [
+                "Spell Gem (Amber)|OotA",
+                "Spell Gem (Bloodstone)|OotA",
+                "Spell Gem (Diamond)|OotA",
+                "Spell Gem (Jade)|OotA",
+                "Spell Gem (Lapis lazuli)|OotA",
+                "Spell Gem (Obsidian)|OotA",
+                "Spell Gem (Quartz)|OotA",
+                "Spell Gem (Ruby)|OotA",
+                "Spell Gem (Star ruby)|OotA",
+                "Spell Gem (Topaz)|OotA"
+            ]
+        },
+        {
+            "code": "SPELL_SCROLL",
+            "name": "Spell Scroll",
+            "source": "DMG",
+            "page": 200,
+            "type": "SC",
+            "rarity": "varies",
+            "items": [
+                "Spell Scroll (Cantrip)",
+                "Spell Scroll (1st Level)",
+                "Spell Scroll (2nd Level)",
+                "Spell Scroll (3rd Level)",
+                "Spell Scroll (4th Level)",
+                "Spell Scroll (5th Level)",
+                "Spell Scroll (6th Level)",
+                "Spell Scroll (7th Level)",
+                "Spell Scroll (8th Level)",
+                "Spell Scroll (9th Level)"
+            ]
+        },
+        {
+            "code": "SPELLWROUGHT_TATTOO",
+            "name": "Spellwrought Tattoo",
+            "source": "TCE",
+            "page": 135,
+            "rarity": "varies",
+            "wondrous": true,
+            "tattoo": true,
+            "items": [
+                "Spellwrought Tattoo (Cantrip)|TCE",
+                "Spellwrought Tattoo (1st Level)|TCE",
+                "Spellwrought Tattoo (2nd Level)|TCE",
+                "Spellwrought Tattoo (3rd Level)|TCE",
+                "Spellwrought Tattoo (4th Level)|TCE",
+                "Spellwrought Tattoo (5th Level)|TCE"
+            ]
+        },
+        {
+            "code": "SPELLWROUGHT_TATTOO",
+            "name": "Spellwrought Tattoo",
+            "source": "UA2020SpellsAndMagicTattoos",
+            "page": 11,
+            "rarity": "varies",
+            "wondrous": true,
+            "tattoo": true,
+            "items": [
+                "Spellwrought Tattoo (Cantrip)|UA2020SpellsAndMagicTattoos",
+                "Spellwrought Tattoo (1st Level)|UA2020SpellsAndMagicTattoos",
+                "Spellwrought Tattoo (2nd Level)|UA2020SpellsAndMagicTattoos",
+                "Spellwrought Tattoo (3rd Level)|UA2020SpellsAndMagicTattoos",
+                "Spellwrought Tattoo (4th Level)|UA2020SpellsAndMagicTattoos",
+                "Spellwrought Tattoo (5th Level)|UA2020SpellsAndMagicTattoos"
+            ]
+        },
+        {
+            "code": "STORMGIRDLE",
+            "name": "Stormgirdle",
+            "source": "EGW",
+            "page": 273,
+            "resist": [
+                "lightning",
+                "thunder"
+            ],
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "ability": {
+                "static": {
+                    "str": 21
+                }
+            },
+            "entries": [
+                "A Stormgirdle is a wide belt made of thick leather branded with the symbol of Kord. The girdle's clasps are made from dragon ivory."
+            ],
+            "items": [
+                "Stormgirdle (Dormant)|EGW",
+                "Stormgirdle (Awakened)|EGW",
+                "Stormgirdle (Exalted)|EGW"
+            ]
+        },
+        {
+            "code": "SWORD_OF_ANSWERING",
+            "name": "Sword of Answering",
+            "source": "DMG",
+            "page": 206,
+            "baseItem": "longsword|phb",
+            "type": "M",
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 3,
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "dmg2": "1d10",
+            "items": [
+                "Sword of Answering (Answerer)",
+                "Sword of Answering (Back Talker)",
+                "Sword of Answering (Concluder)",
+                "Sword of Answering (Last Quip)",
+                "Sword of Answering (Rebutter)",
+                "Sword of Answering (Replier)",
+                "Sword of Answering (Retorter)",
+                "Sword of Answering (Scather)",
+                "Sword of Answering (Squelcher)"
+            ],
+            "lootTables": [
+                "Magic Item Table I"
+            ]
+        },
+        {
+            "code": "THE_BLOODY_END",
+            "name": "The Bloody End",
+            "source": "EGW",
+            "page": 278,
+            "baseItem": "morningstar|PHB",
+            "type": "M",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "sentient": true,
+            "weight": 4,
+            "weaponCategory": "martial",
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "weapon": true,
+            "entries": [
+                "Carrying the power of Bane, this adamantine morningstar sports foot-long spikes and has a jagged blade on its pommel."
+            ],
+            "items": [
+                "The Bloody End (Dormant)|EGW",
+                "The Bloody End (Awakened)|EGW",
+                "The Bloody End (Exalted)|EGW"
+            ],
+            "attachedSpells": [
+                "charm person",
+                "dominate person",
+                "fear"
+            ]
+        },
+        {
+            "code": "VERMINSHROUD",
+            "name": "Verminshroud",
+            "source": "EGW",
+            "page": 273,
+            "conditionImmune": [
+                "disease"
+            ],
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "This patchy cloak was pieced together from the pelts of rats found feasting on the dead in Blightshore and is dotted with the bloated corpses of magically preserved insects along its seams."
+            ],
+            "items": [
+                "Verminshroud (Dormant)|EGW",
+                "Verminshroud (Awakened)|EGW",
+                "Verminshroud (Exalted)|EGW"
+            ],
+            "attachedSpells": [
+                "polymorph"
+            ]
+        },
+        {
+            "code": "WILL_OF_THE_TALON",
+            "name": "Will of the Talon",
+            "source": "EGW",
+            "page": 279,
+            "baseItem": "war pick|PHB",
+            "type": "M",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "sentient": true,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "weapon": true,
+            "entries": [
+                "Black, blue, green, red, and white gems carved in the form of dragon heads cover this ostentatious gold war pick, marking it as a weapon channeling the power of Tiamat."
+            ],
+            "items": [
+                "Will of the Talon (Dormant)|EGW",
+                "Will of the Talon (Awakened)|EGW",
+                "Will of the Talon (Exalted)|EGW"
+            ]
+        },
+        {
+            "code": "WREATH_OF_THE_PRISM",
+            "name": "Wreath of the Prism",
+            "source": "EGW",
+            "page": 274,
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat."
+            ],
+            "items": [
+                "Wreath of the Prism (Dormant)|EGW",
+                "Wreath of the Prism (Awakened)|EGW",
+                "Wreath of the Prism (Exalted)|EGW"
+            ],
+            "attachedSpells": [
+                "dominate monster"
+            ],
+            "hasFluffImages": true
+        }
+    ]
+}

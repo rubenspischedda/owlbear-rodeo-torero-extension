@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "code": "STR"
+        },
+        {
+            "code": "DEX"
+        },
+        {
+            "code": "CON"
+        },
+        {
+            "code": "INT"
+        },
+        {
+            "code": "WIS"
+        },
+        {
+            "code": "CHA"
+        }
+    ]
+}
