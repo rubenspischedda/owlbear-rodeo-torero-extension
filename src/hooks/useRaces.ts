@@ -14,9 +14,18 @@ export default function useRaces(): Race[] {
     const r = races.data
       .filter((r) => r.reprintedAs === undefined)
       .map((a) => {
+        const abilitiesBonus:
+          | {
+              [x: string]: any;
+            }
+          | undefined = a.ability
+          ?.flatMap((f) => Object.entries(f).map(([k, v]) => ({ [k]: v })))
+          ?.reduce((prev, cur) => ({ ...prev, ...cur }), {});
+
         return {
           code: a.code,
           originalName: a.name,
+          abilities: abilitiesBonus ?? {},
           name:
             racesTranslations[a.code as keyof typeof racesTranslations] ??
             a.name,

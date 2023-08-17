@@ -18,9 +18,14 @@ export default function useSubRaces(race?: string): SubRace[] {
       .filter((f) => race ? f.raceCode === race : true)
       .map((a) => {
         const race = races.find(f => f.code === a.raceCode && f?.source?.code === a.raceSource);
+        const abilitiesBonus: {
+          [x: string]: any;
+      } | undefined = a.ability?.flatMap(f => Object.entries(f).map(([k, v]) => ({[k]: v})))?.reduce((prev, cur) => ({ ...prev, ...cur }), {});
+
         return {
           code: a.code ?? '',
           originalName: a.name ?? '',
+          abilities: abilitiesBonus ?? {},
           name:
             subracesTranslations[`${race?.code}_${a.code}` as keyof typeof subracesTranslations] ??
             a.name,

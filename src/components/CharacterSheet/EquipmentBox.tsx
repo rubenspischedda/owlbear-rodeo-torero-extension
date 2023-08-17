@@ -3,7 +3,7 @@ import { Character } from "../../models/character";
 import { Equipment } from "../../models/equipment";
 import { AddIcon, DeleteIcon, MinusIcon } from "../icons/Icon";
 import React from "react";
-import { getBonusFromValue, getCharacterArmorClass } from "../../helpers/utils";
+import { getBonusFromValue, getCharacterArmorClass, getCharacterFullAbilityScore } from "../../helpers/utils";
 import EquipmentRecommendation from "./EquipmentRecommendation";
 
 export enum EquipmentCategory {
@@ -56,7 +56,7 @@ export default function EquipmentBox({ character, equipment, onEquipmentAdd, onE
                                     }} className={"h-3 w-3 hover:text-slate-300 cursor-pointer"} /></td>
                                     <td className='border p-1 flex items-center justify-between'>
                                         <div>{item.item.name ?? item.item.originalName}</div>
-                                        { category === EquipmentCategory.ARMOR && <EquipmentRecommendation dex={character?.stats?.abilities['DEX']?.value ?? 10} currentEquipment={characterEquipment} selectedEquipment={item} /> }
+                                        { category === EquipmentCategory.ARMOR && <EquipmentRecommendation dex={character ? getCharacterFullAbilityScore(character, 'dex') : 10} currentEquipment={characterEquipment} selectedEquipment={item} /> }
                                     </td>
                                     <td className='border'>
                                         <div className='flex items-center space-x-1'>
@@ -96,11 +96,11 @@ export default function EquipmentBox({ character, equipment, onEquipmentAdd, onE
                                                                 {
                                                                     (item.item.armor && !item.item.shield
                                                                         ? item.item.type?.code === 'LA'
-                                                                            ? (getBonusFromValue({ base: character?.stats?.abilities['DEX']?.value ?? 10 })?.value)
+                                                                            ? (getBonusFromValue({ base: character ? getCharacterFullAbilityScore(character, 'dex') : 10 })?.value)
                                                                             : item.item.type?.code === 'MA'
-                                                                                ? (getBonusFromValue({ base: character?.stats?.abilities['DEX']?.value ?? 10 })?.value > 2
+                                                                                ? (getBonusFromValue({ base: character ? getCharacterFullAbilityScore(character, 'dex') : 10 })?.value > 2
                                                                                     ? 2
-                                                                                    : getBonusFromValue({ base: character?.stats?.abilities['DEX']?.value ?? 10 })?.value)
+                                                                                    : getBonusFromValue({ base: character ? getCharacterFullAbilityScore(character, 'dex') : 10 })?.value)
                                                                                 : 0
                                                                         : (item.item.shield ?
                                                                             getCharacterArmorClass(character, characterEquipment, false)
@@ -108,11 +108,11 @@ export default function EquipmentBox({ character, equipment, onEquipmentAdd, onE
                                                                 }</span>
                                                             <div className='text-slate-300 text-2xs'>Formula: {item.item.armor && !item.item.shield
                                                                 ? `${item.item.ac}${item.item.type?.code === 'LA'
-                                                                    ? ' + DEX [' + getBonusFromValue({ base: character?.stats?.abilities['DEX']?.value ?? 10 })?.sign + getBonusFromValue({ base: character?.stats?.abilities['DEX']?.value ?? 10 })?.absoluteValue + ']'
+                                                                    ? ' + DEX [' + getBonusFromValue({ base: character ? getCharacterFullAbilityScore(character, 'dex') : 10 })?.sign + getBonusFromValue({ base: character ? getCharacterFullAbilityScore(character, 'dex') : 10 })?.absoluteValue + ']'
                                                                     : item.item.type?.code === 'MA'
-                                                                        ? ' + DEX (max 2)' + ' [' + getBonusFromValue({ base: character?.stats?.abilities['DEX']?.value ?? 10 })?.sign + (getBonusFromValue({ base: character?.stats?.abilities['DEX']?.value ?? 10 })?.absoluteValue > 2
+                                                                        ? ' + DEX (max 2)' + ' [' + getBonusFromValue({ base: character ? getCharacterFullAbilityScore(character, 'dex') : 10 })?.sign + (getBonusFromValue({ base: character ? getCharacterFullAbilityScore(character, 'dex') : 10 })?.absoluteValue > 2
                                                                             ? 2
-                                                                            : getBonusFromValue({ base: character?.stats?.abilities['DEX']?.value ?? 10 })?.absoluteValue) + ']'
+                                                                            : getBonusFromValue({ base: character ? getCharacterFullAbilityScore(character, 'dex') : 10 })?.absoluteValue) + ']'
                                                                         : ''}`
                                                                 : (item.item.shield ?
                                                                     `CA [${getCharacterArmorClass(character, characterEquipment, false)}] + ${item.item.ac}` : `+ ${item.item.ac ?? 0}`)}</div>

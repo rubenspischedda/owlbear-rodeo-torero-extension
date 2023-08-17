@@ -43,7 +43,17 @@ export function getCharacterArmorClass(
     ? characterEquipment?.find((f) => f.item.shield && f.equipped)
     : undefined;
 
-  return calculateArmorClass({ dex: character.stats.abilities?.['DEX']?.value ?? 0, armor, shield });
+  let dex = character.stats.abilities?.['DEX']?.value ?? 10;
+  
+  if (character?.race?.abilities?.['dex']) {
+    dex += character?.race?.abilities?.['dex'] ?? 0;
+  }
+
+  if (character?.subRace?.abilities?.['dex']) {
+    dex += character?.subRace?.abilities?.['dex'] ?? 0;
+  }
+
+  return calculateArmorClass({ dex, armor, shield });
 }
 
 export function getArmorClassFromDexAndEquipment({ dex, equipment}: { dex: number, equipment: Equipment[] }): number {
@@ -72,6 +82,17 @@ export function calculateArmorClass({ dex, armor, shield }: { dex: number; armor
   }
 
   return armorValue + (shield?.item?.ac ?? 0);
+}
+
+export function getCharacterBaseAbilityScore(character: Character, abilityCode: string) {
+  return character.stats?.abilities?.[abilityCode.toLowerCase()]?.value ?? character.stats?.abilities?.[abilityCode.toUpperCase()]?.value ?? 0;
+}
+
+export function getCharacterFullAbilityScore(character: Character, abilityCode: string) {
+  let abilityScore = character.stats?.abilities?.[abilityCode.toLowerCase()]?.value ?? character.stats?.abilities?.[abilityCode.toUpperCase()]?.value ?? 0;
+  abilityScore += character.race?.abilities?.[abilityCode.toLowerCase()] ?? character.race?.abilities?.[abilityCode.toUpperCase()] ?? 0;
+  abilityScore += character.subRace?.abilities?.[abilityCode.toLowerCase()] ?? character.subRace?.abilities?.[abilityCode.toUpperCase()] ?? 0;
+  return abilityScore;
 }
 
 export const groupBy = <T, K extends keyof any>(arr: T[], key: (i: T) => K) =>

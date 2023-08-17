@@ -9,4 +9,5 @@ export interface SubRace {
     otherSources: Source[];
     race?: Race;
     raceSource?: Source;
+    abilities: Record<string, number>;
 } 

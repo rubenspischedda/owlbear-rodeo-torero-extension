@@ -6,4 +6,5 @@ export interface Race {
     name: string;
     source?: Source;
     otherSources: Source[];
+    abilities: Record<string, number>;
 } 

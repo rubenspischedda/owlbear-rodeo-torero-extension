@@ -7,7 +7,7 @@ import { createNewCharacter } from '../hooks/useCharacter';
 import { useCharactersContext } from '../hooks/useCharactersContext';
 import useSkills from '../hooks/useSkills';
 import { Character } from '../models/character';
-import { getBonusFromValue, getCharacterArmorClass } from '../helpers/utils';
+import { getBonusFromValue, getCharacterArmorClass, getCharacterFullAbilityScore } from '../helpers/utils';
 import { Race } from '../models/race';
 import { LifeClass } from '../models/lifeClass';
 import RaceSelect from '../components/CharacterSheet/RaceSelect';
@@ -282,7 +282,7 @@ export default function CharacterSheet() {
                                 abilities.map((ability) => {
                                     return (
                                         <div key={'big_' + ability.code}>
-                                            <AbilityBigBox ability={ability} value={loadedCharacter?.stats?.abilities?.[ability.code]?.value ?? 10} onValueChange={(newValue) => changeAbilityValue(ability.code, newValue)} />
+                                            <AbilityBigBox ability={ability} character={loadedCharacter} onValueChange={(newValue) => changeAbilityValue(ability.code, newValue)} />
                                         </div>
                                     )
                                 })
@@ -358,7 +358,7 @@ export default function CharacterSheet() {
                                 </div>
                                 <div className='w-1/3 rounded border flex flex-col justify-between'>
                                     <div></div>
-                                    <div>{getBonusFromValue({ base: loadedCharacter?.stats?.abilities?.['DEXTERITY']?.value ?? 10 })?.sign} {getBonusFromValue({ base: loadedCharacter?.stats?.abilities?.['DEXTERITY']?.value ?? 10 })?.value}</div>
+                                    <div>{getBonusFromValue({ base: loadedCharacter ? getCharacterFullAbilityScore(loadedCharacter, 'DEX') : 10 })?.sign} {getBonusFromValue({ base: loadedCharacter ? getCharacterFullAbilityScore(loadedCharacter, 'DEX') : 10 })?.absoluteValue}</div>
                                     <div className='text-3xs uppercase'>Iniziativa</div>
                                 </div>
                                 <div className='w-1/3 rounded border flex flex-col justify-between gap-y-2'>
